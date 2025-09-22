@@ -1,67 +1,15 @@
-* {
-  box-sizing: border-box;
+.tablet, .mobile {
+  display: none;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
+@media (min-width: 768px) AND (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
 
-.rec-ver {
-  height: 140px;
-  width: 70px;
-  border: 2px solid;
-  background-image: linear-gradient(to bottom, #ff0000, #ffff00);
-}
+  .tablet {
+    display: block;
+  }
 
-.rec-hor {
-  height: 70px;
-  width: 140px;
-  border: 2px solid;
-  background-image: url(https://picsum.photos/200/300?grayscale);
-  background-size: contain;
 
-}
-
-.square {
-  height: 100px;
-  width: 100px;
-  border: 2px solid;
-  background-image: linear-gradient(360deg, #ff0000, #ffff00);
-}
-
-.circle {
-  height: 100px;
-  width: 100px;
-  border: 2px solid;
-  border-radius: 50px;
-  background-image: radial-gradient(green, purple);
-}
-
-.oval-ver {
-  height: 140px;
-  width: 70px;
-  border: 2px solid;
-  border-radius: 50%;
-  background-image: conic-gradient(red, yellow, green, blue);
-}
-
-.oval-hor {
-  height: 70px;
-  width: 140px;
-  border: 2px solid;
-  border-radius: 50%;
-}
-
-.line-ver {
-  height: 100px;
-  width: 2px;
-  background-color: black;
-}
-
-.line-hor {
-  height: 2px;
-  width: 100px;
-  background-color: black;
 }
