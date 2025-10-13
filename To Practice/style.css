@@ -1,0 +1,26 @@
+
+* {
+  background-color: rgb(27, 27, 30);
+  font-family: Helvetica, sans-serif;
+  color: lightblue;
+}
+
+.title {
+  text-align: center;
+  font-size: 10em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.Btn {
+  padding: 20px;
+  font-size: 5em;
+  border-radius: 15px;
+}
+
+
