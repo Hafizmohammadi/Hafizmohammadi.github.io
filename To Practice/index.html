@@ -7,17 +7,23 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <h1 id="heading" class="title">0</h1>
-    </div>
-    <div class="container">
-      <button id="decreaseBtn" class="Btn">-</button>
-      <button id="resetBtn" class="Btn">Reset</button>
-      <button id="increaseBtn" class="Btn">+</button>
-    </div>
+    <form action="">
+      <h1>Temperature Converter</h1>
+      <input type="number" id="textBox" value="0"> <br> <br>
+
+      <input type="radio" id="toFahrenheit" name="unit">
+      <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label> <br>
+
+      <input type="radio" id="toCelsius" name="unit">
+      <label for="toCelsius">Fahrenheit ➡️ Celsius</label> <br>
+
+      <button type="button" id="myButton">Convert</button>
+
+      <h3 id="result"></h3>
+
+    </form>
 
 
-
-    <script src="./script.js"></script>
+    <script src="Practice.js"></script>
   </body>
 </html>
